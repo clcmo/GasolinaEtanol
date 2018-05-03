@@ -1,0 +1,130 @@
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="15dp"
+    android:columnCount="2"
+    android:contextClickable="false"
+    android:useDefaultMargins="true"
+    tools:context="clcmo.com.br.gasolinaetanol.MainActivity" >
+
+    <ImageView
+        android:id="@+id/imgGasolina"
+        android:layout_width="@dimen/img_res_size"
+        android:layout_height="@dimen/img_res_size"
+        android:layout_column="0"
+        android:layout_gravity="right|center_vertical"
+        android:elevation="@dimen/elevation"
+        app:srcCompat="@drawable/tanques2" />
+
+    <TextView
+        android:id="@+id/PrecoGasolina"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="@dimen/elevation"
+        android:padding="@dimen/padding"
+        android:text="@string/preco_gasolina"
+        android:textColor="#FF9800"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/PorcentagemGasolina"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:textSize="@dimen/txt_size" />
+
+    <SeekBar
+        android:id="@+id/SeekGasolina"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/seekbar"
+        android:layout_gravity="fill_horizontal"
+        android:max="100"
+        android:progress="0" />
+
+    <ImageView
+        android:id="@+id/imgEtanol"
+        android:layout_width="@dimen/img_res_size"
+        android:layout_height="@dimen/img_res_size"
+        android:layout_column="0"
+        android:layout_gravity="right|center_vertical"
+        android:elevation="@dimen/elevation"
+        app:srcCompat="@drawable/tanques1" />
+
+    <TextView
+        android:id="@+id/PrecoEtanol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="@dimen/elevation"
+        android:padding="@dimen/elevation"
+        android:text="@string/preco_etanol"
+        android:textColor="#4CAF50"
+        android:textSize="@dimen/icon_size" />
+
+    <TextView
+        android:id="@+id/PorcentagemEtanol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:textSize="@dimen/txt_size" />
+
+    <SeekBar
+        android:id="@+id/SeekEtanol"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/seekbar"
+        android:layout_gravity="fill_horizontal"
+        android:max="100"
+        android:progress="0" />
+
+    <TextView
+        android:id="@+id/auxTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:layout_gravity="center_horizontal|fill_horizontal"
+        android:layout_row="4"
+        android:autofillHints="teste1"
+        android:clickable="false"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:hapticFeedbackEnabled="false"
+        android:hint="teste"
+        android:longClickable="false"
+        android:measureWithLargestChild="false"
+        android:nestedScrollingEnabled="false"
+        android:persistentDrawingCache="none|all"
+        android:scrollbarStyle="insideOverlay"
+        android:touchscreenBlocksFocus="false"
+        app:hintAnimationEnabled="true"
+        app:hintTextAppearance="@style/TextAppearance.AppCompat.Display1">
+
+        <TextView
+            android:id="@+id/ResultadoTxt"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_margin="15dp"
+            android:layout_weight="0"
+            android:gravity="center"
+            android:textColor="#00BCD4" />
+
+    </android.support.design.widget.TextInputLayout>
+
+
+    <ImageView
+        android:id="@+id/ResultadoImg"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_columnSpan="2"
+        android:layout_gravity="center"
+        android:layout_weight="1" />
+
+</GridLayout>

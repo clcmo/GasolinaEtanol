@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <dimen name="icon_size">25dp</dimen>
+        <dimen name="padding">12dp</dimen>
+        <dimen name="elevation">4dp</dimen>
+        <dimen name="img_size">60dp</dimen>
+        <dimen name="img_size_m">55dp</dimen>
+        <dimen name="img_size_s">50dp</dimen>
+        <dimen name="seekbar">40dp</dimen>
+        <dimen name="txt_size">20dp</dimen>
+        <dimen name="img_res_size">250dp</dimen>
+</resources>

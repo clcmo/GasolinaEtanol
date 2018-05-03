@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Gasoline or Ethanol</string>
+    <string name="preco_gasolina">Liter of Petrol Price</string>
+    <string name="preco_etanol">Liters of Ethanol</string>
+    <string name="resultado">It\'s better to use...</string>
+    <string name="resultado_gasolina">Petrol</string>
+    <string name="resultado_etanol">Ethanol</string>
+</resources>

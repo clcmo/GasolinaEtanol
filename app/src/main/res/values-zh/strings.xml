@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">汽油或乙醇</string>
+    <string name="preco_gasolina">公升汽油价格</string>
+    <string name="preco_etanol">公升的乙醇</string>
+    <string name="resultado">使用更好</string>
+    <string name="resultado_gasolina">"汽油 "</string>
+    <string name="resultado_etanol">的乙醇</string>
+</resources>
