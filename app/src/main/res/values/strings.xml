@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Walking</string>
+    <string name="tab_today">Today</string>
+    <string name="tab_history">History</string>
+    <string name="tab_profile">Profile</string>
+    <string name="goal_label">Today\'s goal</string>
+    <string name="progress_of_goal">of %1$d min</string>
+    <string name="start">Start</string>
+    <string name="history_empty">No walks yet. Start your first one.</string>
+    <string name="profile_soon">Profile and settings coming soon.</string>
+    <string name="phase_running">Walk in progress</string>
+    <string name="phase_paused">Walk paused</string>
+    <string name="phase_finished">Walk finished</string>
+    <string name="pause">Pause</string>
+    <string name="resume">Resume</string>
+    <string name="finish">Finish</string>
+    <string name="done">Done</string>
+    <string name="label_time">Time</string>
+    <string name="label_distance">Distance</string>
+    <string name="label_pace">Pace</string>
+    <string name="pace_value">%1$s /km</string>
+    <string name="distance_value">%1$s km</string>
+    <string name="permission_needed">Precise location is needed to measure your walk. Allow it in the app settings.</string>
+    <string name="notif_channel">Walk tracking</string>
+</resources>
