@@ -1,0 +1,55 @@
+name: Tarefa
+description: Uma entrega do roadmap do Ariston
+title: "[Tarefa] "
+labels: ["tarefa", "roadmap", "issues"]
+body:
+  - type: dropdown
+    id: area
+    attributes:
+      label: Área
+      options:
+        - Arquitetura (MVVM / MVC / MVP)
+        - UX/UI
+        - IA
+        - Kotlin
+        - Flutter
+        - Node.js
+        - React
+        - Firebase
+        - CI/CD
+        - Login SSO
+        - Docs
+    validations:
+      required: true
+  - type: dropdown
+    id: prioridade
+    attributes:
+      label: Prioridade
+      options:
+        - Alta
+        - Média
+        - Baixa
+    validations:
+      required: true
+  - type: textarea
+    id: contexto
+    attributes:
+      label: Contexto
+      description: Por que essa tarefa existe? O que ela destrava?
+    validations:
+      required: true
+  - type: textarea
+    id: aceite
+    attributes:
+      label: Critérios de aceite
+      description: Como saber que está pronta.
+      value: |
+        - [ ] CI verde
+        - [ ] CD verde
+    validations:
+      required: true
+  - type: textarea
+    id: notas
+    attributes:
+      label: Notas técnicas
+      description: Links, decisões, riscos (opcional).
